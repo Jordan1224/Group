@@ -1,4 +1,8 @@
 
+body {
+  background-color: aquamarine;
+}
+
 /* Style for nav */
 nav {
   float: left;
@@ -7,6 +11,10 @@ nav {
 nav a {
   text-decoration: none;
 }
+
+/* Styles for main */
+
+
 
 
 
