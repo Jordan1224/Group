@@ -6,7 +6,12 @@ body, header, nav, main, footer, img, h1, h3, ul {
 }
 
 body {
-  background-color: aquamarine;
+  background-color: rgb(76, 190, 152);
+}
+
+/* Styles for header */
+header {
+  
 }
 
 /* Style for nav */
@@ -14,6 +19,7 @@ nav {
   float: left;
   text-decoration: none;
   display: block;
+  
 }
 
 nav li {
@@ -23,7 +29,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  
+  color: beige;
 }
 
 /* Styles for main */
