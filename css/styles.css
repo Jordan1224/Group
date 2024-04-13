@@ -32,6 +32,10 @@ nav a {
   color: beige;
 }
 
+nav a:hover {
+  color: bisque;
+}
+
 /* Styles for main */
 
 /* Styles for images */
