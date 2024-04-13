@@ -38,13 +38,13 @@ nav a:hover {
 
 /* Styles for main */
 
-/* Styles for images, figure and figcaption*/
-
-fieldset {
+section {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   gap: 20px;
 }
+
+/* Styles for images, figure and figcaption*/
 
 figure {
   position: relative;
@@ -52,7 +52,8 @@ figure {
 }
 
 figcaption {
-  font-size: 1.25em;
+  font-size: 1em;
+  text-wrap: normal;
 }
 
 img {
