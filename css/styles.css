@@ -18,38 +18,33 @@ header {
 
 /* Style for nav */
 nav {
-  float: left;
-  text-decoration: none;
-  display: block;
-  
+  background-color: blueviolet;
 }
 
-nav li {
-  list-style: none;
-  
-}
-
-nav a {
-  text-decoration: none;
+.mobile-nav a {
   color: beige;
+  text-align: center;
+  font-size: 2em;
+  text-decoration: none;
+  padding: 3%;
+  display: block;
 }
 
-nav a:hover {
+.mobile-nav a:hover {
   color: bisque;
 }
 
-/* Styles for main */
-
-section {
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 20px;
+/* hide nav */
+.tab-desk {
+  display: none;
 }
+
+/* Styles for main */
+  
 
 /* Styles for images, figure and figcaption*/
 
 figure {
-  position: relative;
   margin: 2% auto;
 }
 
@@ -72,10 +67,42 @@ footer {
   padding: 1%;
 }
 
-
-
 @media screen and (min-width: 550px), print {
+  .mobile-nav {
+    display: none;
+  }
 
+  .tab-desk {
+    display: block;
+    float: left;
+  }
+
+  /*Tablet Viewport: Style rules for nav area */
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+
+  nav li {
+    list-style: none;
+    
+  }
+
+  nav a {
+    text-decoration: none;
+    color: beige;
+  }
+
+  nav a:hover {
+    color: bisque;
+  }
+
+  /* Styles for main */
+  section {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+  }
 }
 
 @media screen and (min-width: 769px), print {
