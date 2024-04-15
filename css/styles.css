@@ -20,12 +20,14 @@ header {
 nav {
   background-color: blueviolet;
   text-align: center;
-  
+  padding: 2%;
 }
 
 nav a {
+  text-decoration: none;
+  color: beige;
   margin: 3%;
-  font-size: medium;
+  font-size: 1.25em;
 }
 
 /* hide nav */
@@ -73,11 +75,6 @@ footer {
 
   /*Tablet Viewport: Style rules for nav area */
 
-  nav a {
-    text-decoration: none;
-    color: beige;
-  }
-
   nav a:hover {
     color: bisque;
   }
@@ -99,7 +96,6 @@ footer {
   section {
     figure {
       display: inline-block;
-      margin: 1em 1em 0 7em;
     }
     
   }
