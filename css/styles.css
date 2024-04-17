@@ -27,17 +27,24 @@ nav a {
   text-decoration: none;
   color: beige;
   margin: 3%;
-  font-size: 1.25em;
 }
 
-.top a {
-  text-decoration: none;
-  color: beige;
-  margin: 3%;
-  font-size: 1em;
+nav a:hover {
+  color: bisque;
+}
+
+.mobile-nav li {
+  list-style: none;
+  margin: 2%;
+  padding: 2%;
+  font-size: 1.5em;
 }
 
 /* hide nav */
+.tab-desk{
+  display: none;
+}
+
 #product-nav {
   display: none;
 }
@@ -62,6 +69,18 @@ img {
   border-radius: 1em;
 }
 
+/* back to the top of the page */
+.top a {
+  text-decoration: none;
+  color: beige;
+  margin: 3%;
+  font-size: 1em;
+}
+
+.top a:hover {
+  color: bisque;
+}
+
 /* Styles for footer */
 
 footer {
@@ -80,13 +99,12 @@ footer {
     display: none;
   }
 
-  
-
   /*Tablet Viewport: Style rules for nav area */
-
-  nav a:hover {
-    color: bisque;
+  .tab-desk{
+    display: block;
+    font-size: 1.25em;
   }
+  
 
   /* Styles for product nav */
   #product-nav ul {
