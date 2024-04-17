@@ -30,6 +30,13 @@ nav a {
   font-size: 1.25em;
 }
 
+.top a {
+  text-decoration: none;
+  color: beige;
+  margin: 3%;
+  font-size: 1em;
+}
+
 /* hide nav */
 .tab-desk {
   display: none;
@@ -89,7 +96,7 @@ footer {
     margin: 5%;
   }
   #product-nav {
-    margin: 2%;
+    margin: auto;
   }
 
   /* Styles for main */
