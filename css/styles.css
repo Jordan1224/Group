@@ -38,7 +38,7 @@ nav a {
 }
 
 /* hide nav */
-.tab-desk {
+#product-nav {
   display: none;
 }
 
@@ -75,10 +75,7 @@ footer {
     display: none;
   }
 
-  .tab-desk {
-    display: block;
-    float: left;
-  }
+  
 
   /*Tablet Viewport: Style rules for nav area */
 
@@ -106,8 +103,11 @@ footer {
     }
     
   }
-}
 
-@media screen and (min-width: 769px), print {
-
+  @media screen and (min-width: 769px), print {
+    #product-nav {
+      display: block;
+      float: left;
+    }
+  }
 }
