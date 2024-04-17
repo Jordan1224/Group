@@ -70,6 +70,11 @@ footer {
   padding: 1%;
 }
 
+#all-sections {
+  margin: 2%;
+  padding: 2%;
+}
+
 @media screen and (min-width: 550px), print {
   .mobile-nav {
     display: none;
@@ -108,6 +113,11 @@ footer {
     #product-nav {
       display: block;
       float: left;
+    }
+
+    #all-sections {
+      margin: 0 0 0 20%;
+      padding: 2%;
     }
   }
 }
