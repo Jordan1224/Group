@@ -75,7 +75,7 @@ footer {
   padding: 2%;
 }
 
-@media screen and (min-width: 550px), print {
+@media screen and (min-width: 630px), print {
   .mobile-nav {
     display: none;
   }
