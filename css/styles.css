@@ -90,6 +90,33 @@ footer {
   padding: 2%;
 }
 
+form{
+  background-color: rgb(323,113,100);
+  h3{
+      text-align: center;
+      margin: 2%;
+  }
+}
+.form-grid{
+  margin: 0 30% 0 20%;
+  padding: 2%;
+  display: grid;
+  grid-template-columns: auto;
+}
+.form h4{
+  text-align: center;
+  float: left;
+}
+
+fieldset{
+  display: grid;
+  grid-template-columns: auto;
+}
+
+label{
+  margin:3%
+}
+
 @media screen and (min-width: 630px), print {
   .mobile-nav {
     display: none;
