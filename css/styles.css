@@ -92,7 +92,7 @@ footer {
 
 form{
   background-color: rgb(323,113,100);
-  h3{
+  h1{
       text-align: center;
       margin: 2%;
   }
@@ -139,7 +139,7 @@ label{
     margin: 5%;
   }
   #product-nav {
-    margin: auto;
+    margin: 2% 0;
   }
 
   /* Styles for main */
