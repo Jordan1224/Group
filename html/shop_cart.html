@@ -23,7 +23,7 @@
     <img ref="">
   </header>
   
-  <nav>
+  <nav class="tab-desk">
     <a href="home.html">Home</a>
     <a href="about_us.html">About Us</a>
     <a href="products.html">Products</a>
@@ -60,8 +60,8 @@
           <legend>Card Information</legend>
           <label>Card type: </label>
           <div class="card-type">
-            <label><input type="radio"> Credit</label>
-            <label><input type="radio"> Debit</label>
+            <label><input type="radio" name="cardtype"> Credit</label>
+            <label><input type="radio" name="cardtype"> Debit</label>
           </div>
           <label>Card Holder (If different than the above)</label>
           <div class="name">
@@ -69,8 +69,7 @@
             <label>Last Name: <input type="text"></label>
           </div>
             <label>Card Number: <input type="number" size="16" placeholder="xxxx-xxxx-xxxx-xxxx"></label>
-            <label>CVV: 
-            <input type="number" size="3" placeholder="xxx"></label>
+            <label>CVV: <input type="number" size="3" placeholder="xxx"></label>
         </fieldset>
         <label><input type="submit" value="Submit"></label>
       </div>
