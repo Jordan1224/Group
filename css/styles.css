@@ -90,6 +90,7 @@ footer {
   padding: 2%;
 }
 
+/* Styles for forms */
 form{
   background-color: rgb(323,113,100);
   h1{
@@ -103,10 +104,7 @@ form{
   display: grid;
   grid-template-columns: auto;
 }
-.form h4{
-  text-align: center;
-  float: left;
-}
+
 
 fieldset{
   display: grid;
@@ -116,6 +114,13 @@ fieldset{
 label{
   margin:3%
 }
+
+.card-type {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+
 
 @media screen and (min-width: 630px), print {
   .mobile-nav {
@@ -159,6 +164,15 @@ label{
     #all-sections {
       margin: 0 0 0 20%;
       padding: 2%;
+    }
+
+    
+
+    .form-grid{
+      margin: 2%;
+      padding: 2%;
+      display: grid;
+      grid-template-columns: auto auto;
     }
   }
 }
