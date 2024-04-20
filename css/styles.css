@@ -91,6 +91,10 @@ footer {
 }
 
 /* Styles for forms */
+.personal {
+  text-align: center;
+}
+
 form{
   background-color: rgb(323,113,100);
   h1{
