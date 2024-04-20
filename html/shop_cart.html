@@ -48,17 +48,18 @@
             <label>Email*</label>
             <input name="email" type="email" required placeholder="example@google.com">
             <label>Phone Number</label>
-            <input name="phone" type="number" size=”10” placeholder="xxx-xxx-xxxx">
+            <input name="phone" type="tel" size=”10” maxlength="15" placeholder="xxx-xxx-xxxx">
             <label>Address*</label>
             <input name="address" type="text" required>
             <label>City*</label>
             <input name="city" type="text" required>
             <label>State*</label>
-            <input name="state" type="text" required>
+            <input name="state" type="text" required 
+                   minlength="2" maxlength="2" placeholder="FL">
         </fieldset>
         <fieldset>
           <legend>Card Information</legend>
-          <label>Card type* </label>
+          <label>Card type*</label>
           <div class="card-type">
             <label><input type="radio" name="cardtype" required> Credit</label>
             <label><input type="radio" name="cardtype" required> Debit</label>
@@ -68,8 +69,11 @@
             <label>First Name: <input type="text" name="first-name"></label>
             <label>Last Name: <input type="text" name="last-name"></label>
           </div>
-            <label>Card Number*<input type="number" name="card-number" required size="16" placeholder="xxxx-xxxx-xxxx-xxxx"></label>
-            <label>CVV<input type="number" name="cvv" size="3" placeholder="xxx"></label>
+            <label>Card Number*<input type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" 
+                                      autocomplete="cc-number" maxlength="19" 
+                                      placeholder="xxxx xxxx xxxx xxxx" required></label>
+            <label>CVV<input type="tel" name="cvv" minlength="3" 
+                             maxlength="3" placeholder="xxx"></label>
         </fieldset>
         <label><input type="submit" name="submit" value="Submit"></label>
       </div>
