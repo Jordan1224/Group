@@ -41,37 +41,37 @@
       <div class="form-grid">
         <fieldset>
           <legend>Customer Information</legend>
-            <label>First Name:</label>
-            <input name="first name" type=”text”>
-            <label>Last Name:</label>
-            <input name="last name" type="text">
-            <label>Email:</label>
-            <input name="email" type="email" placeholder="example@google.com">
-            <label>Phone:</label>
+            <label>First Name*</label>
+            <input name="first-name" type=”text” required>
+            <label>Last Name*</label>
+            <input name="last-name" type="text" required>
+            <label>Email*</label>
+            <input name="email" type="email" required placeholder="example@google.com">
+            <label>Phone Number</label>
             <input name="phone" type="number" size=”10” placeholder="xxx-xxx-xxxx">
-            <label>Address: </label>
-            <input name="address" type="text">
-            <label>City: </label>
-            <input type="text">
-            <label>State: </label>
-            <input type="text">
+            <label>Address*</label>
+            <input name="address" type="text" required>
+            <label>City*</label>
+            <input name="city" type="text" required>
+            <label>State*</label>
+            <input name="state" type="text" required>
         </fieldset>
         <fieldset>
           <legend>Card Information</legend>
-          <label>Card type: </label>
+          <label>Card type* </label>
           <div class="card-type">
-            <label><input type="radio" name="cardtype"> Credit</label>
-            <label><input type="radio" name="cardtype"> Debit</label>
+            <label><input type="radio" name="cardtype" required> Credit</label>
+            <label><input type="radio" name="cardtype" required> Debit</label>
           </div>
           <label>Card Holder (If different than the above)</label>
           <div class="name">
-            <label>First Name: <input type="text"></label>
-            <label>Last Name: <input type="text"></label>
+            <label>First Name: <input type="text" name="first-name"></label>
+            <label>Last Name: <input type="text" name="last-name"></label>
           </div>
-            <label>Card Number: <input type="number" size="16" placeholder="xxxx-xxxx-xxxx-xxxx"></label>
-            <label>CVV: <input type="number" size="3" placeholder="xxx"></label>
+            <label>Card Number*<input type="number" name="card-number" required size="16" placeholder="xxxx-xxxx-xxxx-xxxx"></label>
+            <label>CVV<input type="number" name="cvv" size="3" placeholder="xxx"></label>
         </fieldset>
-        <label><input type="submit" value="Submit"></label>
+        <label><input type="submit" name="submit" value="Submit"></label>
       </div>
     </form>
 
