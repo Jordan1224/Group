@@ -125,6 +125,10 @@ label{
   max-width: 100%;
 }
 
+#submit {
+  margin: 0 0 0 45%;
+}
+
 @media screen and (min-width: 630px), print {
   .mobile-nav {
     display: none;
