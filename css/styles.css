@@ -59,8 +59,23 @@ figure {
 }
 
 figcaption {
-  font-size: 1em;
-  text-wrap: normal;
+
+  /* position: left;
+   top:0;
+   right: 0;
+   width: 24px;
+   height: 180px;
+   line-height: 24px;
+   font-size: 13px;
+   font-weight: bold;
+   text-align: center;
+   color:rgb(323,113,100);*/
+   /*text-transform: uppercase;*/
+   /*writing-mode: vertical-lr;
+   background-color: aqua;*/
+   font-size: 1em;
+   text-wrap: normal;
+   text-align-last: center;
 }
 
 img {
@@ -104,6 +119,7 @@ img {
 .who_are {
   max-width: 50%;
   max-height: 50%;
+  font-size: 1.25em;
 }
 
 /* back to the top of the page */
@@ -228,7 +244,6 @@ label{
       grid-template-columns: auto auto auto;
       margin: 0 0 0 10%;
     }
-
 
     .caden img {
       width: 200px;
