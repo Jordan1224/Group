@@ -65,6 +65,17 @@ img {
   border-radius: 1em;
 }
 
+#all-sections {
+  margin: 2%;
+  padding: 2%;
+}
+
+#all-sections img {
+  width: 350px;
+  height: 300px;
+
+}
+
 .trending_items {
   display: grid;
   grid-template-columns: auto;
@@ -111,10 +122,6 @@ footer {
   padding: 1%;
  }
 
-#all-sections {
-  margin: 2%;
-  padding: 2%;
-}
 
 /* Styles for forms */
 .personal {
@@ -193,12 +200,7 @@ label{
   }
 
   /* Styles for main */
-  section {
-    figure {
-      display: inline-block;
-    }
-    
-  }
+  
 
   @media screen and (min-width: 769px), print {
     
@@ -232,6 +234,10 @@ label{
     #all-sections {
       margin: 0 0 0 20%;
       padding: 2%;
+      section figure {
+          display: inline-block;
+        }
+  
     }
 
     .form-grid{
@@ -248,7 +254,5 @@ label{
     .feedback-form {
       width: 50%;
     }
-
-    
   }
 }
