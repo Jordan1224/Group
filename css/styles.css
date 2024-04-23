@@ -12,8 +12,12 @@ body {
 /* Styles for header */
 header {
   background-color: #f43b05;
-  font-size: 1.5em;
+  font-size: 2.5em;
   padding: 2%;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
  }
 
 /* Style for nav */
@@ -217,13 +221,18 @@ label{
     }
 
     .who_are {
+      text-align: center;
       max-width: 50%;
       max-height: 45%;
       display: grid;
       grid-template-columns: auto auto auto;
-      div {
-        margin: 2%;
-      }
+      margin: 0 0 0 20%;
+    }
+
+    .who_are div {
+      text-align: center;
+      margin: 3%;
+      padding: 3%;
     }
 
     #product-nav {
