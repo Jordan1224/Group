@@ -6,22 +6,22 @@ body, header, nav, main, footer, img, h1, h3, ul {
 }
 
 body {
-  background-color: rgb(76, 190, 152);
-}
+  background-color: #e9c8aa;
+ }
 
 /* Styles for header */
 header {
-  background-color: blueviolet;
+  background-color: #f43b05;
   font-size: 1.5em;
   padding: 2%;
-}
+ }
 
 /* Style for nav */
 nav {
-  background-color: blueviolet;
+  background-color: #fb8a69;
   text-align: center;
   padding: 2%;
-}
+ }
 
 nav a {
   text-decoration: none;
@@ -30,8 +30,8 @@ nav a {
 }
 
 nav a:hover {
-  color: bisque;
-}
+  color: #f43b05;
+ }
 
 .mobile-nav li {
   list-style: none;
@@ -81,9 +81,9 @@ img {
 
 footer {
   text-align: center;
-  background-color: blueviolet;
+  background-color: #f43b05;
   padding: 1%;
-}
+ }
 
 #all-sections {
   margin: 2%;
@@ -102,13 +102,13 @@ form{
       margin: 2%;
   }
 }
+
 .form-grid{
   margin: 0 30% 0 20%;
   padding: 2%;
   display: grid;
   grid-template-columns: auto;
 }
-
 
 fieldset{
   display: grid;
@@ -164,7 +164,7 @@ label{
     margin: 5%;
   }
   #product-nav {
-    margin: 2% 0;
+    margin: auto;
   }
 
   /* Styles for main */
