@@ -65,8 +65,21 @@ img {
   border-radius: 1em;
 }
 
+.trending_items {
+  display: grid;
+  grid-template-columns: auto;
+  img {
+    max-width: 100%;
+    margin: 2% 0;
+  }
+  
+}
+
 .more_products {
-  margin: 2%;
+  margin: 25px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto;
   img{
     width: 180px;
     height: 150px;
@@ -161,7 +174,6 @@ label{
     font-size: 1.25em;
   }
   
-
   /* Styles for product nav */
   #product-nav ul {
     text-align: center;
@@ -184,6 +196,12 @@ label{
   }
 
   @media screen and (min-width: 769px), print {
+
+    .trending_items {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+
     #product-nav {
       display: block;
       float: left;
