@@ -55,28 +55,13 @@ nav a:hover {
 /* Styles for images, figure and figcaption*/
 
 figure {
-  margin: 2%;
+  margin: 2% auto;
   border: #f43b05 solid;
   border-radius: 1em;
   border-width: 5px;
 }
 
-
-
 figcaption {
-  /* position: left;
-   top:0;
-   right: 0;
-   width: 24px;
-   height: 180px;
-   line-height: 24px;
-   font-size: 13px;
-   font-weight: bold;
-   text-align: center;
-   color:rgb(323,113,100);*/
-   /*text-transform: uppercase;*/
-   /*writing-mode: vertical-lr;
-   background-color: aqua;*/
    font-size: 1em;
    text-align-last: center;
    background-color: #fb8a69;
