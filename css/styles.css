@@ -55,7 +55,7 @@ nav a:hover {
 /* Styles for images, figure and figcaption*/
 
 figure {
-  margin: 2% auto;
+  margin: 2%;
   border: #f43b05 solid;
   border-radius: 1em;
   border-width: 5px;
@@ -64,7 +64,6 @@ figure {
 
 
 figcaption {
-
   /* position: left;
    top:0;
    right: 0;
@@ -79,16 +78,16 @@ figcaption {
    /*writing-mode: vertical-lr;
    background-color: aqua;*/
    font-size: 1em;
-   text-wrap: normal;
    text-align-last: center;
    background-color: #fb8a69;
    padding: 2%;
+   border-radius: 0 0 10px 10px;
 }
 
 img {
   max-width: 100%;
   display: block;
-  border-radius: 1em;
+  border-radius: 1em 1em 0 0;
 }
 
 #all-sections {
@@ -134,7 +133,8 @@ img {
 
     figcaption {
       background-color: #fb8a69;
-      padding: 4%;
+      padding: 2%;
+      border-radius: 0 0 10px 10px;
     }
     
   }  
@@ -213,7 +213,7 @@ label{
   margin: 0 0 0 45%;
 }
 
-@media screen and (min-width: 630px), print {
+@media screen and (min-width: 769px), print {
   .mobile-nav {
     display: none;
   }
@@ -237,68 +237,62 @@ label{
     margin: auto;
   }
 
-  /* Styles for main */
-  
+  #product-nav {
+    display: block;
+    float: left;
+  }
 
-  @media screen and (min-width: 769px), print {
-    
-    .trending_items {
-      display: grid;
-      grid-template-columns: auto auto;
-    }
+  .trending_items {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
 
-    .more_products {
-      margin: 25px;
-      text-align: center;
-      display: grid;
-      grid-template-columns: auto auto auto auto auto;
-    }
+  .more_products {
+    margin: 25px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+  }
 
-    .who_are {
-      max-width: 100%;
-      max-height: 100%;
-      display: grid;
-      grid-template-columns: auto auto auto;
-      margin: 0 0 0 10%;
-    }
+  .who_are {
+    max-width: 100%;
+    max-height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0 0 0 10%;
+  }
 
-    .caden img {
-      width: 200px;
-    }
+  .caden img {
+    width: 200px;
+  }
 
-    .who_are div {
-      text-align: center;
-      margin: 3%;
-      padding: 3%;
-    }
+  .who_are div {
+    text-align: center;
+    margin: 3%;
+    padding: 3%;
+  }
 
-    #product-nav {
-      display: block;
-      float: left;
-    }
+  #all-sections {
+    margin: 0 0 0 20%;
+    padding: 2%;
+    section figure {
+        display: inline-block;
+      }
 
-    #all-sections {
-      margin: 0 0 0 20%;
-      padding: 2%;
-      section figure {
-          display: inline-block;
-        }
-  
-    }
+  }
 
-    .form-grid{
-      margin: 2%;
-      padding: 2%;
-      display: grid;
-      grid-template-columns: auto auto;
-    }
+  .form-grid{
+    margin: 2%;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
 
-    .feedback {
-      margin-left: 25%;
-    }
+  .feedback {
+    margin-left: 25%;
+  }
 
-    .feedback-form {
-      width: 50%;
-    }
+  .feedback-form {
+    width: 50%;
   }
 }
