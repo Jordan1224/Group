@@ -99,9 +99,14 @@ img {
   text-align: center;
   display: grid;
   grid-template-columns: auto;
-  img{
-    width: 180px;
-    height: 150px;
+
+  figure{
+    width: 200px;
+    height: 200px;
+  }
+  img {
+    width:200px;
+    height: 175px;
   }
 }
 
